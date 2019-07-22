@@ -1,0 +1,41 @@
+{
+  "name": "puppeteer-extra-plugin-aws",
+  "version": "1.0.0",
+  "description": "A puppeteer-extra plugin to run puppeteer on AWS (e.g. ECS, EC2)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/f9mac/puppeteer-extra-plugin-aws.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "puppeteer-extra",
+    "puppeteer-extra-plugin",
+    "aws",
+    "ecs",
+    "ec2",
+    "chrome",
+    "headless",
+    "authless"
+  ],
+  "author": "f9mac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f9mac/puppeteer-extra-plugin-aws/issues"
+  },
+  "homepage": "https://github.com/f9mac/puppeteer-extra-plugin-aws#readme",
+  "dependencies": {
+    "puppeteer-extra-plugin": "^3.0.4"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^6.2.0",
+    "puppeteer-extra": "^2.1.3"
+  }
+}
