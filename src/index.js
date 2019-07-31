@@ -40,8 +40,6 @@ class Plugin extends PuppeteerExtraPlugin {
         '--enable-tcp-fast-open',
         '--enable-webgl',
         '--hide-scrollbars',
-        '--ignore-gpu-blacklist',
-        '--media-cache-size=33554432',
         '--metrics-recording-only',
         '--mute-audio',
         '--no-default-browser-check',
@@ -53,7 +51,6 @@ class Plugin extends PuppeteerExtraPlugin {
         '--prerender-from-omnibox=disabled',
         '--use-gl=swiftshader',
         '--use-mock-keychain',
-        '--single-process'
       ]
     }
   }
