@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-extra-plugin-aws",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A puppeteer-extra plugin to run puppeteer on AWS (e.g. ECS, EC2)",
   "main": "src/index.js",
   "directories": {
